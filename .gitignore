@@ -1,0 +1,111 @@
+# Core
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Git
+.git-credentials
+.gitconfig
+
+# C/C++ build outputs
+*.obj
+*.o
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.ncb
+*.opendb
+*.VC.db
+*.VC.opendb
+*.cache
+*.ipch
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake-build-*/
+**/Makefile
+**/build/
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# Visual Studio (Windows)
+.vs/
+**/Debug*/
+**/Release*/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.opensdf
+*.sdf
+*.cachefile
+ipch/
+
+# Keep project files but ignore user-specific
+# Do NOT ignore solution/project files themselves
+# card.sln, *.vcxproj should be tracked
+
+# Xcode (macOS/iOS)
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+DerivedData/
+xcuserdata/
+
+# Android/Gradle
+.gradle/
+**/build/
+**/app/build/
+**/.idea/
+*.iml
+local.properties
+
+# Java/Kotlin
+*.class
+
+# Python (tools in cocos2d)
+__pycache__/
+*.pyc
+*.pyo
+
+# Cocos2d-x specific
+external/
+tools/**/bin/
+cocos2d/build/
+cocos2d/cocos/precheader.pch
+
+# Project-specific build output folders
+proj.win32/Debug.win32/
+proj.win32/Release.win32/
+proj.linux/bin/
+proj.linux/obj/
+proj.ios_mac/ios/build/
+proj.ios_mac/mac/build/
+
+# Resources (generated)
+Resources/**/*.plist
+
+# IDEs/editors
+.idea/
+.project
+.classpath
+.settings/
+.vscode/

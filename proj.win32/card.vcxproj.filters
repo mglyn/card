@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes">
+      <UniqueIdentifier>{b31f85f4-71c6-44f7-81c2-a8cc04e4b3c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\configs">
+      <UniqueIdentifier>{80b3ca36-3e34-4ea8-a5fa-64e721de3f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\controllers">
+      <UniqueIdentifier>{bd37b7e0-b37b-4017-916e-dbe92d2834cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\managers">
+      <UniqueIdentifier>{8a6df2d9-4713-467e-a669-4f282d4fc610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\models">
+      <UniqueIdentifier>{6a08b379-9fe2-4558-ae80-3fe272d0e393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\services">
+      <UniqueIdentifier>{7976eddf-629d-4288-8e76-0b8134771a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\utils">
+      <UniqueIdentifier>{9becba0c-d5e4-4a82-a038-c5d950f2a8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\views">
+      <UniqueIdentifier>{32b615e4-2233-4511-a392-8cbeaedbcecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\configs\models">
+      <UniqueIdentifier>{2101da31-e252-4a9a-b844-bb4b4eb9d2dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\configs\loaders">
+      <UniqueIdentifier>{0089844d-d18e-404b-b9b7-d07c003e7fe3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controllers\GameController.cpp">
+      <Filter>classes\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\managers\UndoManager.cpp">
+      <Filter>classes\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\GameView.cpp">
+      <Filter>classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\services\GameModelFromLevelGenerator.cpp">
+      <Filter>classes\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\PlayfieldView.cpp">
+      <Filter>classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\StackView.cpp">
+      <Filter>classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\CardView.cpp">
+      <Filter>classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controllers\PlayfieldController.cpp">
+      <Filter>classes\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controllers\StackController.cpp">
+      <Filter>classes\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\LevelSerializer.cpp">
+      <Filter>classes\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controllers\GameController.h">
+      <Filter>classes\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\managers\UndoManager.h">
+      <Filter>classes\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\CardModel.h">
+      <Filter>classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\GameModel.h">
+      <Filter>classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\UndoModel.h">
+      <Filter>classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\GameView.h">
+      <Filter>classes\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\services\GameModelFromLevelGenerator.h">
+      <Filter>classes\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\StackModel.h">
+      <Filter>classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\PlayfieldModel.h">
+      <Filter>classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\PlayfieldView.h">
+      <Filter>classes\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\StackView.h">
+      <Filter>classes\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\configs\loaders\LevelConfigLoader.h">
+      <Filter>classes\configs\loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\configs\models\LevelConfig.h">
+      <Filter>classes\configs\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\CardView.h">
+      <Filter>classes\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controllers\PlayfieldController.h">
+      <Filter>classes\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controllers\StackController.h">
+      <Filter>classes\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\LevelSerializer.h">
+      <Filter>classes\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
