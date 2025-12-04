@@ -17,7 +17,7 @@
 - 需求3：回退功能
   - 记录每次点击与移动操作。连续点击回退按钮，卡牌按相反路径 MoveTo 返回原位，直至无回退记录。
 
-<video src="https://github.com/mglyn/card/blob/main/videos/202512050056.mp4" controls></video>
+https://github.com/user-attachments/assets/08041b3c-0adc-46b3-9bb5-8263e837b39c
 
 ## 设计与分辨率
 - 设计分辨率：1080 x 2080
