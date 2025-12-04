@@ -71,12 +71,6 @@ https://github.com/user-attachments/assets/08041b3c-0adc-46b3-9bb5-8263e837b39c
 
 ### Windows（Visual Studio）
 - 打开 `proj.win32/card.sln`，选择 `Debug.win32` 或 `Release.win32` 配置编译运行。
-- 或使用 CMake：
-  ```powershell
-  # 在仓库根目录
-  cmake -S . -B build -G "Visual Studio 17 2022" -A x64
-  cmake --build build --config Release
-  ```
 
 ### Android（Gradle）
 - 未配置
